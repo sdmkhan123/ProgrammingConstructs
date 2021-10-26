@@ -25,4 +25,6 @@ for(i=0;i<5;i++)
 }
 console.log("Max no is "+max);
 console.log("Min no is "+min);
+//2. Write a program that takes day and month from the command line and prints true if
+//day of month is between March 20 and June 20, false otherwise.
 console.log("===============================================================================");
