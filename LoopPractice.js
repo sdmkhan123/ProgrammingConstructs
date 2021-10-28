@@ -26,4 +26,12 @@ if (is_prime)
     console.log(num + " is a Prime number");
 else
     console.log(num + " is not Prime number");
+//UC-3
+let factnum = 5;
+let fact = 1;
+for (let i = 1; i <= factnum; i++) 
+{
+    fact = fact * i;
+}
+console.log("Factorial of " + factnum + " : " + fact);
 console.log("===============================================================================");
