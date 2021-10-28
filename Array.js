@@ -46,3 +46,11 @@ if (sum == 0)
 else{
     console.log('Sum is not zero.');
 }
+//UC-4
+let repeatArr = [];
+for(let i = 1; i<=100; i++)
+{
+    if(i%11==0)
+    repeatArr.push(i);
+}
+console.log(repeatArr);
