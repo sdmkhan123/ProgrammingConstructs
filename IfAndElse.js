@@ -57,4 +57,15 @@ else
 {
     console.log(year + ' is not a leap year');
 }
+//4.Flip a coin to check Head or Tail
+let flipCoin = Math.floor(Math.random() * 2);
+
+if(flipCoin==0)
+{
+    console.log("Heads")
+}
+else
+{
+    console.log("Tails")
+}
 console.log("===============================================================================");
