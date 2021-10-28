@@ -18,9 +18,12 @@ let max = Math.max.apply(null, array) // get the max of the array
 array.splice(array.indexOf(max), 1) // remove max from the array
 max = Math.max.apply(null, array); // get the 2nd max
 console.log("Second Largest number  : " + max);
-
 // Second smallest number calculated
 let min = Math.min.apply(null, array)
 array.splice(array.indexOf(min), 1)
 min = Math.min.apply(null, array);
 console.log("Second Smallest number : " + min);
+let sortArray = array.sort();
+console.log(...array);
+console.log("Second Largest number in sorted array  : " + sortArray[sortArray.length-2]);
+console.log("Second Smallest number in sorted array : " + sortArray[1]);
